@@ -1,0 +1,20 @@
+.background-lightgray{
+    background-color: #F8F8F8;
+}
+
+.submit-button{
+    background-color: #FD6F00;
+    color: white;
+}
+
+.submit-button:active{
+    background-color: #fd6e00c0;
+    border: 0;
+    color: white;    
+}
+
+@media (min-width: 768px) {
+    .w-md-50{
+        width: 50% !important;
+    }
+}

@@ -1,0 +1,26 @@
+
+.footer-container{
+    background-color: #F8F8F8;
+    min-height: 250px;
+}
+
+.copyright-container{
+    background-color: #545454;
+    height: 50px;
+}
+
+.orange-color{
+    color: #FD6F00;
+}
+
+.navbar-nav{
+    max-height: 150px;
+}
+
+@media (max-width: 576px) { 
+    .copyright-container {
+        p{
+            font-size: xx-small;
+        }
+    }
+}
