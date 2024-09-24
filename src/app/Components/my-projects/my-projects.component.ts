@@ -9,7 +9,7 @@ import { MyProjectsService } from '../../Services/my-projects.service';
 })
 export class MyProjectsComponent {
 
-  MyProjects: {title:string, primaryImage:string, SecondaryImage: string, link: string}[];
+  MyProjects: {title:string, primaryImage:string, SecondaryImage: string, link: string, details: string}[];
 
   constructor(myProjects: MyProjectsService) {
     this.MyProjects = myProjects.Projects;

@@ -7,10 +7,10 @@ import { Component, Input } from '@angular/core';
 })
 export class CardProjectComponent {
 
-  @Input() Project: {title:string, primaryImage:string, SecondaryImage: string, link: string};
+  @Input() Project: {title:string, primaryImage:string, SecondaryImage: string, link: string, details: string};
 
   constructor() {
-    this.Project = {title: "", primaryImage:"", SecondaryImage:"",  link:""}
+    this.Project = {title: "", primaryImage:"", SecondaryImage:"",  link:"", details: ""}
     
   }
 
