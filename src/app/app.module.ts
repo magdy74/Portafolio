@@ -19,6 +19,7 @@ import { ServicesPageComponent } from './Pages/services-page/services-page.compo
 import { ProjectsPageComponent } from './Pages/projects-page/projects-page.component';
 import { ContactPageComponent } from './Pages/contact-page/contact-page.component';
 import { NotFound404PageComponent } from './Pages/not-found-404-page/not-found-404-page.component';
+
 @NgModule({
   declarations: [
     AppComponent,

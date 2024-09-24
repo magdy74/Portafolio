@@ -7,5 +7,5 @@ export class MySkillsService {
 
   constructor() { }
 
-  MySkills = ["HTML", "CSS", "Sass", "Bootstrap", "React", "Angular", "Javascript", "Typescript", "C#", ".Net", "Sql"]
+  MySkills = ["HTML", "CSS", "Sass", "Bootstrap", "React", "Angular", "Javascript", "Typescript", "C#", ".Net 8.0", "MVC", "Web API", "Sql"]
 }
